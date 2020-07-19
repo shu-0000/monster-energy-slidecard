@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <!-- ここに後で文字入れるかもしれないので空けておく。ここにはバッククラウンドイメージが入っています。 -->
+                    </div>
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, pariatur?</p>
+                        <a href="#">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        
+                    </div>
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, pariatur?</p>
+                        <a href="#">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        
+                    </div>
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, pariatur?</p>
+                        <a href="#">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        
+                    </div>
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, pariatur?</p>
+                        <a href="#">BOY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        
+                    </div>
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, pariatur?</p>
+                        <a href="#">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        
+                    </div>
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, pariatur?</p>
+                        <a href="#">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 30,
+                stretch: 0,
+                depth: 200,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+</body>
+</html>
